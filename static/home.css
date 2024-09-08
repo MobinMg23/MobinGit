@@ -1,0 +1,107 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1; /* رنگ پس‌زمینه */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #343a40; /* رنگ هدر */
+    color: white; /* رنگ متن هدر */
+    padding: 20px; /* padding هدر */
+    text-align: center; /* مرکز کردن متن هدر */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header input {
+    margin-top: 15px; /* فاصله بین عنوان و کادر جستجو */
+    padding: 10px; /* padding کادر جستجو */
+    width: 80%; /* عرض کادر جستجو */
+    border: none; /* بدون حاشیه */
+    border-radius: 5px; /* گوشه‌های گرد */
+}
+
+nav {
+    margin-top: 15px; /* فاصله بین کادر جستجو و ناوبری */
+}
+
+nav div a {
+    color: white; /* رنگ لینک‌ها */
+    margin: 0 10px; /* فاصله بین لینک‌ها */
+    text-decoration: none; /* بدون خط زیر */
+    transition: color 0.3s; /* انیمیشن تغییر رنگ */
+}
+
+nav div a:hover {
+    color: #ffc107; /* رنگ لینک‌ها در هاور */
+}
+
+.py-5 {
+    padding: 3rem 0; /* padding برای بخش محصولات */
+}
+
+.container {
+    display: flex; /* فعال کردن flexbox */
+    flex-wrap: wrap; /* اجازه می‌دهد کارت‌ها به ردیف‌های جدید بروند */
+    justify-content: space-around; /* توزیع افقی */
+}
+
+.card {
+    margin: 10px; /* فاصله بین کارت‌ها */
+    border: none; /* بدون حاشیه */
+    border-radius: 10px; /* گوشه‌های گرد */
+    width: 200px; /* عرض ثابت کارت */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* سایه */
+    transition: transform 0.3s; /* انیمیشن جابجایی */
+}
+
+.card-img-top {
+    width: 100%; /* عرض تصویر */
+    height: 120px; /* ارتفاع */
+    object-fit: cover; /* تنظیم به صورت پوشش */
+    border-top-left-radius: 10px; /* گرد کردن گوشه باریک کارت */
+    border-top-right-radius: 10px; /* گرد کردن گوشه باریک کارت */
+}
+
+.card-body {
+    padding: 10px; /* فضای داخلی */
+}
+
+
+
+.card-body h5 {
+    font-size: 1.2rem; /* اندازه فونت عنوان */
+    margin: 10px 0; /* فاصله بالای و پایینی */
+}
+
+.card-footer {
+    background-color: transparent; /* بدون پس‌زمینه */
+}
+
+.btn-outline-dark {
+    border-color: #343a40; /* رنگ حاشیه دکمه */
+    color: #343a40; /* رنگ متن دکمه */
+    padding: 10px 20px; /* padding دکمه */
+    border-radius: 5px; /* گوشه‌های گرد */
+}
+
+.btn-outline-dark:hover {
+    background-color: #343a40; /* رنگ پس‌زمینه دکمه در هاور */
+    color: white; /* رنگ متن دکمه در هاور */
+}
+
+footer {
+    text-align: center; /* مرکز کردن متن */
+    padding: 20px; /* padding به فوتر */
+    background-color: #343a40; /* رنگ پس‌زمینه فوتر */
+    color: white; /* رنگ متن فوتر */
+    position: relative;
+}
+
+footer p {
+    margin: 0; /* حذف حاشیه */
+}
+
